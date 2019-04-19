@@ -63,7 +63,7 @@ relatorio_pedidos =[]
 listapaginaspedidos = []
 
 for y in relatorio_meses:
-        listapaginaspedidos.append(y[3])
+        listapaginaspedidos.append(y[4])
 
 # 3.2 webscraping das páginas de pedidos
 
@@ -99,7 +99,7 @@ dfpedidos.to_csv(pedidos_nome_csv, index = False, sep='|')
 listapaginasnotas = []
 
 for z in relatorio_pedidos:
-        listapaginasnotas.append(z[7])
+        listapaginasnotas.append(z[8])
 
 # 4.2 webscraping das páginas de notas
 
