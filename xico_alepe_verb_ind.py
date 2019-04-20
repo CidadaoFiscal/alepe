@@ -6,6 +6,8 @@ import datetime
 from time import gmtime, strftime
 import itertools
 
+#v3
+
 #1.0 cria lista com todos os códigos de deputados registrados no sistema da ALEPE
 relatorio_cod_dep = []
 lista_deputado = []
